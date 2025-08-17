@@ -1,0 +1,21 @@
+{
+  "name": "mobiletests",
+  "version": "1.0.0",
+  "description": "Automated tests for the mobile task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jozhiks/MobileTests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jozhiks/MobileTests/issues"
+  },
+  "homepage": "https://github.com/Jozhiks/MobileTests#readme"
+}
