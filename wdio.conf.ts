@@ -12,7 +12,7 @@ export const config: WebdriverIO.Config = {
 
     ],
 
-    maxInstances: 10,
+    maxInstances: 1,
 
     services: ['appium'],
 
