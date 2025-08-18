@@ -21,11 +21,9 @@ export const config: WebdriverIO.Config = {
         "appium:deviceName": "emulator-5554", 
         "appium:platformVersion": "16.0",     
         "appium:automationName": "UiAutomator2",
-        'appium:app': 'C:\\Users\\Rolands\\Downloads\\TheApp.apk',
-        // 'appium:appPackage': 'com.theapp',
-        // 'appium:appActivity': 'com.theapp.TheApp',
+        'appium:app': './TheApp.apk',
         "appium:newCommandTimeout": 300
-}],
+    }],
 
 
     logLevel: 'info',
