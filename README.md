@@ -70,3 +70,12 @@ With Appium running and your emulator active, you can execute your test suite.
     * To run only a specific test file, use the `--spec` flag: `npx wdio run wdio.conf.ts --spec ./tests/validLogin.spec.js`
 
 (Replace `./tests/validLogin.spec.js` with the path to your desired test file.)
+
+
+**! Possible issue !**
+
+For the possibility to run Android Studio emulator, you need to make sure that `virtualisation` is enabled on your windows device. 
+
+ * Open task manager and check under Performance > CPU, there you should see `virtualisation` option, it needs to be enabled.
+
+To enable it, you need to change it from Disabled to Enabled in your computers BIOS settings.
